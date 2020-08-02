@@ -18,5 +18,10 @@ public class MainActivity extends AppCompatActivity {
 
         TextView TvMsg2 = findViewById(R.id.TvMsg2);
         TvMsg2.setText(R.string.Msg2);
+        
+        
+        Log.i("Lifecycle","Oncreate() invoked");
 }
+
+
 }
